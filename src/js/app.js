@@ -14,7 +14,7 @@ const INIT_PETALS_SIZE = 50;
 // 横風
 var wind = 0;
 
-const socket = new WebSocket("wss://teens-town.me:5000/sakura/");
+const socket = new WebSocket("wss://teens-town.me/sakura/");
 
 let users = [];
 
