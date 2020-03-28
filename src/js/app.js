@@ -45,6 +45,9 @@ $(function () {
   }
 
   function appendPetal(holderName = null, colorCode = null) {
+    if (1500 < $(".hana").length) {
+      return;
+    }
     const petal = new Petal(
       UUID(), // ユニークID
       holderName, // 持ち主ID
